@@ -13,7 +13,7 @@ npm install --save aor-language-turkish
 ## Usage
 
 ```js
-import frenchMessages from 'aor-language-turkish';
+import turkishMessages from 'aor-language-turkish';
 
 const messages = {
     'tr': turkishMessages,

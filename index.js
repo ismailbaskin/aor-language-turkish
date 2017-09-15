@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     aor: {
         action: {            
             delete: 'Sil',
@@ -11,6 +11,7 @@ module.exports = {
             refresh: 'Yenile',
             add_filter: 'Filtre ekle',
             remove_filter: 'Filtreyi kaldır',
+            back: 'Geri Dön',
         },
         boolean: {
             true: 'Evet',
@@ -23,11 +24,17 @@ module.exports = {
             create: '%{name} oluştur',
             delete: '%{name} #%{id} Sil',
             dashboard: 'Ana Sayfa',
+            not_found: 'Sayfa bulunamadı',
         },
         input: {
+            file: {
+                upload_several:
+                    'Yüklemek istediğiniz dosyaları buraya sürükleyin ya da seçmek için tıklayın.',
+                upload_single: 'Yüklemek istediğiniz dosyayı buraya sürükleyin ya da seçmek için tıklayın..',
+            },
             image: {
-                upload_several: 'Yüklemek istediğiniz dosyaları buraya sürükleyin ya da seçmek için tıklayın.',
-                upload_single: 'Yüklemek istediğiniz dosyayı buraya sürükleyin ya da seçmek için tıklayın.'
+                upload_several: 'Yüklemek istediğiniz resimleri buraya sürükleyin ya da seçmek için tıklayın.',
+                upload_single: 'Yüklemek istediğiniz resmi buraya sürükleyin ya da seçmek için tıklayın.'
             },
         },
         message: {
@@ -35,6 +42,8 @@ module.exports = {
             no: 'Hayır',
             are_you_sure: 'Emin misiniz?',
             about: 'Hakkında',
+            not_found:
+                'Hatalı bir URL girdiniz ya da yanlış bir linke tıkladınız',
         },
         navigation: {
             no_results: 'Kayıt bulunamadı',
